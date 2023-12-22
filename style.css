@@ -1,0 +1,1011 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+}
+
+body.body-container {
+    display: flex;
+    flex-direction: column;
+    font-family:'Martel', sans-serif;
+    margin: 0;
+}
+
+/*Bagian header*/
+header.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #E7F6F2;
+    padding: 0rem 1rem;
+    background-color: #395B64;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+
+header.head-container .head-caption {
+    display: flex;
+    width: 33.3%;
+    font-size: 14px;
+    line-height: 1rem;
+}
+
+header.head-container .head-caption h1 a {
+    text-decoration: none;
+    color: #E7F6F2;
+    transition: all .2s ease-in-out;
+}
+
+header.head-container .head-caption h1 a:hover {
+    color: white;
+}
+
+header.head-container .nav-list {
+    width: 33.3%;
+}
+header.head-container .nav-list ul{
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    justify-content: center;
+    line-height: 0rem;
+}
+
+header.head-container .nav-list li {
+    list-style-type: none;
+}
+
+header.head-container .nav-list li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #E7F6F2;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+header.head-container .nav-list li a:hover {
+    color: white;
+    border-bottom-style: solid;
+}
+
+header.head-container .head-contact {
+    display: flex;
+    justify-content: flex-end;
+    width: 33.3%;
+}
+
+header.head-container .head-contact ul {
+    display: flex;
+    gap: 1rem;
+}
+
+header.head-container .head-contact li {
+    list-style-type: none;
+}
+
+header.head-container .head-contact li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #E7F6F2;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+header.head-container .head-contact li a:hover {
+    color: white;
+    border-bottom-style: solid;
+}
+/*Bagian header selesai*/
+
+/*Bagian main*/
+main.main-container {
+    color:  #395B64;
+    padding-top: 5rem;
+}
+
+main.main-container .content {
+    display: flex;
+    flex-direction: column;
+}
+
+/*home*/
+main.main-container .content .home-article h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    line-height: 0rem;
+}
+
+main.main-container .content .home-article .article-container {
+    display: flex;
+    justify-content: center;
+}
+
+main.main-container .content .home-article .article-container .article-text {
+    font-size: 18px;
+    width: 650px;
+    text-align: justify;
+}
+/*home selesai*/
+
+/*travel*/
+main.main-container .content .travel-title {
+    display: flex;
+    justify-content: center;
+}
+
+main.main-container .content .travel-title #travel-content {
+    font-size: 32px;
+    line-height: 0rem;
+    color: #E7F6F2;
+}
+
+main.main-container .content .travel-container {
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 0rem 1rem;
+    gap: 1rem;
+}
+
+main.main-container .content .travel-container .travel-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 20%;
+}
+
+/*left1*/
+main.main-container .content .travel-container .travel-content-left .left-1 {
+    height: 33.3%;
+    overflow: hidden;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-1 a img {
+    object-fit: cover;
+    width: 96%;
+    height: 96%;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-1 a:hover img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-1 a h4 {
+    font-size: 22px;
+    color: #E7F6F2;
+    position: absolute;
+}
+
+/*left2*/
+main.main-container .content .travel-container .travel-content-left .left-2 {
+    height: 33.3%;
+    overflow: hidden;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-2 a img {
+    object-fit: cover;
+    width: 96%;
+    height: 96%;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-2 a:hover img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-2 a h4 {
+    font-size: 22px;
+    color: #E7F6F2;
+    position: absolute;
+}
+
+/*left3*/
+main.main-container .content .travel-container .travel-content-left .left-3 {
+    height: 33.3%;
+    overflow: hidden;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-3 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-3 a img {
+    object-fit: cover;
+    width: 96%;
+    height: 96%;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-3 a:hover img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+main.main-container .content .travel-container .travel-content-left .left-3 a h4 {
+    font-size: 22px;
+    color: #E7F6F2;
+    position: absolute;
+}
+
+/*center*/
+main.main-container .content .travel-container .travel-content-center {
+    width: 60%;
+    height: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-center a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-center a:hover {
+    box-shadow: 0 4px 6px 4px #395B64;
+}
+
+main.main-container .content .travel-container .travel-content-center a .travel-content-center-image {
+    height: 85%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-center a:hover .travel-content-center-image {
+    height: 83%;
+}
+
+main.main-container .content .travel-container .travel-content-center a .travel-content-center-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-center a:hover .travel-content-center-image img {
+    width: 98%;
+    height: 96%;
+}
+
+main.main-container .content .travel-container .travel-content-center a .travel-content-center-caption {
+    text-align: center;
+    color: #395B64;
+}
+
+main.main-container .content .travel-container .travel-content-center a .travel-content-center-caption h2 {
+    margin: 5px;
+    font-weight: normal;
+}
+
+main.main-container .content .travel-container .travel-content-center a .travel-content-center-caption p {
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/*right*/
+main.main-container .content .travel-container .travel-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 20%;
+}
+
+/*right-1*/
+main.main-container .content .travel-container .travel-content-right .right-1 {
+    height: 20%;
+    width: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-1 a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #395B64;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-1 a .right-1-pict {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-1 a .right-1-pict img {
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-1 a:hover .right-1-pict img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-1 a .right-1-capt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-1 a .right-1-capt h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 3px 0px;
+    text-align: left;
+    transition: all .5s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-1 a:hover .right-1-capt h5 {
+    text-decoration: underline;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-1 a .right-1-capt p {
+    text-align: left;
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+}
+
+/*right-2*/
+main.main-container .content .travel-container .travel-content-right .right-2 {
+    height: 20%;
+    width: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-2 a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #395B64;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-2 a .right-2-pict {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-2 a .right-2-pict img {
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-2 a:hover .right-2-pict img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-2 a .right-2-capt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-2 a .right-2-capt h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 3px 0px;
+    text-align: left;
+    transition: all .5s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-2 a:hover .right-2-capt h5 {
+    text-decoration: underline;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-2 a .right-2-capt p {
+    text-align: left;
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+}
+/*right-2 selesai*/
+
+/*right-3*/
+main.main-container .content .travel-container .travel-content-right .right-3 {
+    height: 20%;
+    width: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-3 a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #395B64;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-3 a .right-3-pict {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-3 a .right-3-pict img {
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-3 a:hover .right-3-pict img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-3 a .right-3-capt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-3 a .right-3-capt h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 3px 0px;
+    text-align: left;
+    transition: all .5s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-3 a:hover .right-3-capt h5 {
+    text-decoration: underline;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-3 a .right-3-capt p {
+    text-align: left;
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+}
+/*right-3 selesai*/
+
+/*right-4*/
+main.main-container .content .travel-container .travel-content-right .right-4 {
+    height: 20%;
+    width: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-4 a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #395B64;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-4 a .right-4-pict {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-4 a .right-4-pict img {
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-4 a:hover .right-4-pict img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-4 a .right-4-capt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-4 a .right-4-capt h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 3px 0px;
+    text-align: left;
+    transition: all .5s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-4 a:hover .right-4-capt h5 {
+    text-decoration: underline;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-4 a .right-4-capt p {
+    text-align: left;
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+}
+/*right-4 selesai*/
+
+/*right-5*/
+main.main-container .content .travel-container .travel-content-right .right-5 {
+    height: 20%;
+    width: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-5 a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #395B64;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-5 a .right-5-pict {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-5 a .right-5-pict img {
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+    transition: all .2s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-5 a:hover .right-5-pict img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-5 a .right-5-capt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-5 a .right-5-capt h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 3px 0px;
+    text-align: left;
+    transition: all .5s ease-in-out;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-5 a:hover .right-5-capt h5 {
+    text-decoration: underline;
+}
+
+main.main-container .content .travel-container .travel-content-right .right-5 a .right-5-capt p {
+    text-align: left;
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+}
+/*right-5 selesai*/
+
+/*footer*/
+footer.foot-container {
+    display: flex;
+    background-color: #2C3333;
+    justify-content: center;
+    color: #E7F6F2;
+    padding: 0rem 2rem;
+    margin: 2rem 0rem;
+}
+/*Konten selesai*/
+
+/*Tampilan Mobile*/
+@media screen and (max-width: 912px) {
+    *, *::before, *::after {
+        box-sizing: border-box;
+        scroll-padding-top: 6rem;
+        scroll-behavior: smooth;
+    }
+
+    /*main container*/
+    main.main-container {
+        padding: 1rem 3rem;
+        margin-top: 4rem;
+    }
+
+    main.main-container .content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    main.main-container .content .home-article h2 {
+        font-size: 20px;
+    }
+
+    main.main-container .content .home-article .article-container .article-text {
+        width: 60%;
+        font-size: 16px;
+    }
+
+    main.main-container .content .travel-title #travel-content {
+        font-size: 20px;
+    }
+
+    main.main-container .content .travel-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 0;
+    }
+
+    main.main-container .content .travel-container .travel-content-center {
+        order: 1;
+        width: 100%;
+        height: 500px;
+    }
+
+    main.main-container .content .travel-container .travel-content-center a .travel-content-center-caption h2 {
+        font-size: 20px;
+    }
+
+    main.main-container .content .travel-container .travel-content-center a .travel-content-center-caption p {
+        font-size: 14px;
+    }
+
+    main.main-container .content .travel-container .travel-content-left {
+        flex-direction: row;
+        order: 2;
+        width: 100%;
+        height: 250px;
+    }
+
+    main.main-container .content .travel-container .travel-content-left .left-1 {
+        width: 33.3%;
+        height: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-left .left-2 {
+        width: 33.3%;
+        height: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-left .left-3 {
+        width: 33.3%;
+        height: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right {
+        width: 100%;
+        order: 3;
+        flex-direction: row;
+        height: auto;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-1 a {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-1 a .right-1-pict {
+        width: 100%;
+        height: 5rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-1 a .right-1-capt {
+        width: 85%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-2 a {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-2 a .right-2-pict {
+        width: 100%;
+        height: 5rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-2 a .right-2-capt {
+        width: 85%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-3 a {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-3 a .right-3-pict {
+        width: 100%;
+        height: 5rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-3 a .right-3-capt {
+        width: 85%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-4 a {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-4 a .right-4-pict {
+        width: 100%;
+        height: 5rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-4 a .right-4-capt {
+        width: 85%;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-5 a {
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-5 a .right-5-pict {
+        width: 100%;
+        height: 5rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-5 a .right-5-capt {
+        width: 85%;
+    }
+}
+/*max-width 912px selesai*/
+
+@media screen and (max-width: 540px) {
+    *, *::before, *::after {
+        box-sizing: border-box;
+        scroll-padding-top: 11rem;
+        scroll-behavior: smooth;
+    }
+ 
+    header.head-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header.head-container .head-caption {
+        width: 100%;
+        justify-content: center;
+    }
+
+    header.head-container .nav-list {
+        width: 100%;
+        justify-content: center;
+    }
+
+    header.head-container .head-contact {
+        width: 100%;
+    }
+
+    header.head-container .head-contact ul {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+
+    header.head-container .head-contact ul li a {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    main.main-container {
+        padding: 1rem 3rem;
+        margin-top: 9rem;
+    }
+
+    main.main-container .content .home-article .article-container .article-text {
+        width: 80%;
+    }
+    main.main-container .content .travel-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    main.main-container .content .travel-container .travel-content-center {
+        order: 1;
+        width: 100%;
+        height: 300px;
+    }
+
+    main.main-container .content .travel-container .travel-content-center a .travel-content-center-caption h2 {
+        font-size: 16px;
+    }
+
+    main.main-container .content .travel-container .travel-content-center a .travel-content-center-caption p {
+        font-size: 11px;
+    }
+
+    main.main-container .content .travel-container .travel-content-left {
+        flex-direction: column;
+        order: 2;
+        width: 100%;
+        height: 600px;
+    }
+
+    main.main-container .content .travel-container .travel-content-left .left-1 {
+        width: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-left .left-1 a h4 {
+        font-size: 2rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-left .left-2 {
+        width: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-left .left-2 a h4 {
+        font-size: 2rem;
+    }
+    main.main-container .content .travel-container .travel-content-left .left-3 {
+        width: 100%;
+    }
+
+    main.main-container .content .travel-container .travel-content-left .left-3 a h4 {
+        font-size: 2rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right {
+        flex-direction: column;
+        gap: 1rem;
+        order: 3;
+        width: 80%;
+        height: 25rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-1 a {
+        flex-direction: row;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-1 a .right-1-pict {
+        width: 30%;
+        height: 4rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-2 a {
+        flex-direction: row;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-2 a .right-2-pict {
+        width: 30%;
+        height: 4rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-3 a {
+        flex-direction: row;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-3 a .right-3-pict {
+        width: 30%;
+        height: 4rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-4 a {
+        flex-direction: row;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-4 a .right-4-pict {
+        width: 30%;
+        height: 4rem;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-5 a {
+        flex-direction: row;
+    }
+
+    main.main-container .content .travel-container .travel-content-right .right-5 a .right-5-pict {
+        width: 30%;
+        height: 4rem;
+    }
+}
+/*max-width: 540px selesai*/
+
+@media screen and (max-width: 414px) {
+    main.main-container .content {
+        flex-direction: column;
+    }
+
+    main.main-container .content .home-article h2 {
+        font-size: 16px;
+    }
+
+    main.main-container .content .home-article .article-container .article-text {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    main.main-container .content .travel-title #travel-content {
+        font-size: 16px;
+    }
+}
